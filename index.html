@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside class="sidebar" id="sidebar">
+      <header class="topbar">
+        <div class="brand" aria-label="Brand">
+          <span class="brand-main">motilal</span>
+          <span class="brand-sub">Oswal</span>
+          <span class="brand-caption">Wealth Management</span>
+        </div>
+        <button class="collapse-btn" id="collapseBtn" aria-label="Collapse sidebar">
+          <span class="arrow"></span>
+        </button>
+      </header>
+
+      <div class="search-wrap">
+        <input type="text" placeholder="Search Stock" />
+        <span class="search-icon"></span>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-group top-group">
+          <a href="#" class="menu-item">
+            <span class="icon pie"></span>
+            <span class="label">Advisory Dashboard</span>
+            <span class="caret"></span>
+          </a>
+          <a href="#" class="menu-item">
+            <span class="icon pie"></span>
+            <span class="label">Raise Your Query</span>
+            <span class="caret"></span>
+          </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="menu-group main-group">
+          <a href="#" class="menu-item active"><span class="icon home"></span><span class="label">Home</span></a>
+          <a href="#" class="menu-item"><span class="icon pie"></span><span class="label">Business Summary</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon layers"></span><span class="label">Research Reco</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon bag"></span><span class="label">Client Trading Profile</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon folder"></span><span class="label">Product Subscribed</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon file"></span><span class="label">Reports</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon book"></span><span class="label">News</span></a>
+          <a href="#" class="menu-item"><span class="icon calc"></span><span class="label">Calculators</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon users"></span><span class="label">High Propensity Client</span></a>
+          <a href="#" class="menu-item"><span class="icon panel"></span><span class="label">Product Dashboard</span><span class="caret"></span></a>
+          <a href="#" class="menu-item"><span class="icon db"></span><span class="label">Other Products</span></a>
+          <a href="#" class="menu-item"><span class="icon db"></span><span class="label">Lead From StraTX</span></a>
+        </div>
+      </nav>
+
+      <footer class="profile">
+        <div class="avatar"></div>
+        <div class="profile-text">
+          <div class="name">BA: OMHUBLI</div>
+          <div class="role">Sub Broker: ALL</div>
+        </div>
+        <button class="logout" aria-label="Log out">
+          <span class="exit"></span>
+        </button>
+      </footer>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
