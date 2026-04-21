@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advisory Dashboard UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <header class="topbar">
+          <div class="brand" aria-label="Brand">
+            <span class="brand-main">motilal</span>
+            <span class="brand-sub">Oswal</span>
+            <span class="brand-caption">Wealth Management</span>
+          </div>
+          <button class="collapse-btn" id="collapseBtn" aria-label="Collapse sidebar"><span class="arrow"></span></button>
+        </header>
+
+        <div class="search-wrap"><input type="text" placeholder="Search Stock" /><span class="search-icon"></span></div>
+
+        <nav class="menu">
+          <div class="menu-group top-group">
+            <a href="#" class="menu-item"><span class="icon pie"></span><span class="label">Advisory Dashboard</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon pie"></span><span class="label">Raise Your Query</span><span class="caret"></span></a>
+          </div>
+          <div class="divider"></div>
+          <div class="menu-group main-group">
+            <a href="#" class="menu-item active"><span class="icon home"></span><span class="label">Home</span></a>
+            <a href="#" class="menu-item"><span class="icon pie"></span><span class="label">Business Summary</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon layers"></span><span class="label">Research Reco</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon bag"></span><span class="label">Client Trading Profile</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon folder"></span><span class="label">Product Subscribed</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon file"></span><span class="label">Reports</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon book"></span><span class="label">News</span></a>
+            <a href="#" class="menu-item"><span class="icon calc"></span><span class="label">Calculators</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon users"></span><span class="label">High Propensity Client</span></a>
+            <a href="#" class="menu-item"><span class="icon panel"></span><span class="label">Product Dashboard</span><span class="caret"></span></a>
+            <a href="#" class="menu-item"><span class="icon db"></span><span class="label">Other Products</span></a>
+            <a href="#" class="menu-item"><span class="icon db"></span><span class="label">Lead From StraTX</span></a>
+          </div>
+        </nav>
+
+        <footer class="profile">
+          <div class="avatar"></div>
+          <div class="profile-text"><div class="name">BA: OMHUBLI</div><div class="role">Sub Broker: ALL</div></div>
+          <button class="logout" aria-label="Log out"><span class="exit"></span></button>
+        </footer>
+      </aside>
+
+      <main class="content">
+        <div class="ticker">Nvidia-OpenAI deal concerns • PG Electroplast +65.95% • Prithvi Exchange +27.38% • Market Cap +27.8%</div>
+
+        <section class="top-actions panel">
+          <button class="pill live">TALK TIME <b>00:58:47</b></button>
+          <button class="pill">View All Research Calls</button>
+          <div class="right-controls">
+            <input placeholder="Search Client: Code/Name" />
+            <button class="icon-btn">🔔</button>
+          </div>
+        </section>
+
+        <h1>Welcome back, OMHUBLI</h1>
+        <p class="section-sub">Business Summary <span>Last updated • 04 Feb 2026 10:57 AM</span></p>
+
+        <section class="kpi-row">
+          <article class="kpi panel"><h3>Total Revenue</h3><p class="big">₹0.95 L</p><small>Today ₹15000.00</small></article>
+          <article class="kpi panel"><h3>Mapped Clients</h3><p class="big">299</p><small>Traded Clients 40</small></article>
+          <article class="kpi panel"><h3>Segment Wise Turnover</h3><p class="big">4.34 Cr</p><small>Cash · Futures · Options</small></article>
+        </section>
+
+        <section class="cards-section">
+          <div class="title-row"><h2>AI Calls</h2><a href="#">View all</a></div>
+          <div class="cards-grid">
+            <article class="stock-card panel"><h4>RUBICON RESEARCH</h4><p class="price">₹760.00</p><p class="muted">Target Price ₹3,491.40</p></article>
+            <article class="stock-card panel"><h4>RUBICON RESEARCH</h4><p class="price">₹760.00</p><p class="muted">Target Price ₹3,491.40</p></article>
+            <article class="stock-card panel"><h4>RUBICON RESEARCH</h4><p class="price">₹760.00</p><p class="muted">Target Price ₹3,491.40</p></article>
+          </div>
+        </section>
+
+        <section class="strip-section">
+          <div class="title-row"><h2>Stock in Action</h2><a href="#">View all</a></div>
+          <div class="strip-grid panel">
+            <div class="strip-item"><b>ITC</b><span>₹325.80</span><small>+5.03%</small></div>
+            <div class="strip-item"><b>ITC</b><span>₹325.80</span><small>+5.03%</small></div>
+            <div class="strip-item"><b>ITC</b><span>₹325.80</span><small>+5.03%</small></div>
+            <div class="strip-item"><b>ITC</b><span>₹325.80</span><small>+5.03%</small></div>
+            <div class="strip-item"><b>ITC</b><span>₹325.80</span><small>+5.03%</small></div>
+          </div>
+        </section>
+
+        <section class="title-row"><h2>Actionable Details</h2><a href="#">View all</a></section>
+        <table class="panel data-table">
+          <thead><tr><th>Client Code</th><th>QTY</th><th>CM Revenue</th><th>LM Revenue</th><th>Daily Average</th></tr></thead>
+          <tbody>
+            <tr><td>OMHU0020</td><td>₹2.03 L</td><td>₹338.52</td><td>₹136.00</td><td>₹970.00</td></tr>
+            <tr><td>OMHU0020</td><td>₹2.03 L</td><td>₹338.52</td><td>₹136.00</td><td>₹970.00</td></tr>
+            <tr><td>OMHU0020</td><td>₹2.03 L</td><td>₹338.52</td><td>₹136.00</td><td>₹970.00</td></tr>
+            <tr><td>OMHU0020</td><td>₹2.03 L</td><td>₹338.52</td><td>₹136.00</td><td>₹970.00</td></tr>
+          </tbody>
+        </table>
+
+        <section class="sentiment-grid">
+          <article class="panel"><h3>Sentiment Turning Positive</h3><p class="price">HDFC Bank ₹760.00 <span class="green">+6.89</span></p></article>
+          <article class="panel"><h3>Sentiment Turning Negative</h3><p class="price">HDFC Bank ₹760.00 <span class="green">+6.89</span></p></article>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
